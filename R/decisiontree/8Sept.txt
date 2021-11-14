@@ -1,0 +1,19 @@
+Decision trees:
+-Part of CART (classification and regression technique)
+-used for classification(logistic) and regression(linear)
+-works efficiently with non-linear dataset
+-uses greedy algorith technique
+-works best with limited number of features
+-splits features in to two sub sets and keeps dividing (the binary tree) into leaf nodes where at the end the decision is made
+-Split criteria done by : 1. Entropy
+			  2. Information Gain (IG)
+-Hyperparameter tuning can be done: split can be done by providing some condtion such as a min no. of ovservations, or the depth of the tree, etc.
+ rpart.control() is used for specifying the conditions
+
+Adv:
+interpretable
+easy to understand
+scaleable
+robust when no of features are less
+-Prunning (trimming) is done to remove excess/non-usefull features
+

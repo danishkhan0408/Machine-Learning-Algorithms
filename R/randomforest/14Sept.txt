@@ -1,0 +1,22 @@
+Random Forest:
+-Used for both Classification and Regression
+-Works best for Classification
+-Called an "Ensemble classifier" ie many models working together
+-Collection of many decision trees, whose average is taken
+-each dt is callled a bag
+-by default 500 bags are created, can be specified manually as well
+-no overfit problem
+-each dt built need not be trimmed
+-can have max number of columns
+-can have bad values (try to avoid them)
+-Multicollinear values must be removed after check
+-uses bootstrap method to select samples
+
+
+Bootstrapping
+1.Bagging:
+-a random sampling with replacement
+-samples are also called out of bag samples
+-models are build in parallel
+
+DT is better than RF when the variables are binary in nature

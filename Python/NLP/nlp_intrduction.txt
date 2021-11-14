@@ -1,0 +1,29 @@
+Natural Language Processing:
+
+-used for unstructured data (not in tabular form)
+-unstructured is in word or text file etc
+-word boundaries: where the one word ends and the other starts, ie " " space
+-tokenization: split itnto phrases, words, idioms (determines how powerful your dictionary is)
+-stemming: mapping to its root word (ie laughing : root word is laugh)
+-TF and IDF: -Term Frequency (no of times a word is occouring in your document), higher frequency means word is more important
+		can also be a disadvantage if the frequency is more and the importance is low like in Insurance, words like Policy and Premium
+		appear many times but dont convey a lot of information, conversely, Cancer  may not occur many times but conveys a lot
+		of information. This brings the need for IDF
+	     -Inverse Document Frequency: log(total number of documents/number of documents in which that word is appearing)
+-Disambiguation: Context vs Content, words can have multiple meanings example: play, drill, mercury, mobile, fast, etc
+-Topic Model: discovering the hidden or abstract topics (subtopics with the main topic)
+-Stop Words: Words are very common and do not add any meaning like: if, this, the, then, where, etc.
+	     To deal with stop words: just remove them blindly
+-Speech tagging: tells whether the words is noun, pronoun, adjective, etc
+-Name Entity Recognition: Tells if the name is a person or a place or a date, money etc
+-TDM: Term Document Matrix: will convert the unstructured data into numbers
+	it is a matrix in which each unique word becomes a column (or a feature)
+	where 1 (or its frequency) indicates presence of the word and 0 represents absence
+	its a sparse matrix because presenc of 0's is much more compared to 1's, etc
+	(no of rows remains constant)
+	
+-corpus: collection of document where each row represents a document 
+
+
+
+

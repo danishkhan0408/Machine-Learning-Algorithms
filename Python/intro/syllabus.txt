@@ -1,0 +1,17 @@
+1. variables and mnumbers
+2.strings
+3.list
+4.tuple
+5.dictionary
+6.sets
+7.operators/if else/loops
+8.functions
+9.lambda functions
+10.files
+11.numpy/scipy - specialized libraries
+12.pandas - equivalent to data frames (specialized library)
+13.oops
+14.matplotlib - equivalent to ggplot
+15.scikit - machine learning library
+   NLTK - not in syllabus
+16.advanced ML - Tensorflow

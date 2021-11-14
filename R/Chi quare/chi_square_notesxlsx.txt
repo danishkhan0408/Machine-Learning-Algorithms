@@ -1,0 +1,4 @@
+Chi Square test for independence
+-test on categorical data
+X^2=(observed-Ecpected)^2 /Expected
+degree of freedom = (no of colummns -1)x(no of rows -1)

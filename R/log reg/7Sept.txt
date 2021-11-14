@@ -1,0 +1,15 @@
+Logistic regression: part of binary classification technique
+
+
+Classification types
+
+1.Binary calssification:
+Has only two outcomes
+True or False
+eg: important email or spam email
+
+2.Multiclass classification:
+more than two outcomes
+
+Logistic regression: extension of linear regression
+the outcome Y is a Probability(0 to 1), to which we assign Bernoulli output ie (0/1), dependent on independent variable X

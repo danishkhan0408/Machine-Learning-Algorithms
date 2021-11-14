@@ -1,0 +1,35 @@
+ANOVA: Analysis Of Variance
+1. Among variance: distance from the overall mean
+2. Around: internal distance
+
+F ratio= [n1 sum(x1-X)^2 + n2 sum(x2-X)^2 + ...] / (k-1)
+         -------------------------------------------------
+         [(sum(x1i - x1)^2 + (sum(x2i - x1)^2 + ...]/(N-k)
+         
+        n = number of observations of each sample
+	xn = sample of each mean
+	X = mean of all sample means
+	k = total number of sample groups
+
+kNN k Nearest Neighbour:
+-Uses Euclidean distance formula to determine the nearest neighbour
+-Used for classification and regression
+
+For continous variables:
+1. Euclidean distance (slow)
+2. Manhattan distance (default)
+3. Minowski distance
+
+For categorical variables
+1. Hamming distance
+
+Standardization is done to restric the data between 0 and 1 to reduce computation time and complexity
+Standardization technique:
+1. z score
+2. logit
+3. MinMax 
+
+MinMax = [x - min(x)] / [max(x) - min(x)]
+
+k range 3 to 11 (usually)
+Classification: k= odd value is selected

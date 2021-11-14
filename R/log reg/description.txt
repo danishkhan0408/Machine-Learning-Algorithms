@@ -1,0 +1,93 @@
+NAME:  The Benign Breast Disease Study
+KEYWORDS:  Logistic Regression
+SIZE:  200 observations, 14 variables
+TYPE:  Matched Case-Control
+
+SOURCE: The data are from Appendix 5 of
+  Hosmer, D.W. and Lemeshow, S. (1989) Applied Logistic Regression,
+  John Wiley and Sons, New York.
+They are copyrighted and reproduced here with the permission of 
+the publisher.
+
+
+DESCRIPTIVE ABSTRACT:
+
+	These data contain information from a 1 - 3 matched design studying
+the risk factors associated with benign breast disease.  The data is comprised
+of a subset of large study in which the original data are from a hospital
+based case-control study designed to examine the epidemiology of fibrocystic
+breast disease.  Data are provided on 50 women who were diagnosed as having
+benign breast disease and 150 age matched controls, with three controls per
+case.  Matching was based on the age of the subject at the time of interview.
+
+	Cases included women with a biopsy-confirmed diagnosis of fibrocystic
+breast disease identified through two hospitals in New Haven, Connecticut.
+Controls were selected from among patients admitted to the general surgery,
+orthopedic, or otolaryngologic services at the same two hospitals. Trained
+interviewers administered a standardized structured questionnaire to collect
+information from each subject [see Pastides et. al. (1983) and Pastides,
+et al. (1985)].
+
+
+Table:  Code Sheet for the Benign Breast Disease Data.
+
+Columns		Name					Abbreviations	
+-----------------------------------------------------------------------
+4-5		Stratum (1-50)				STR	
+
+9		Observation within a Stratum 		OBS	
+		(1 = Case,2-4 = Control)
+
+14-15		Age of the Subject at the Interview	AGMT
+
+21		Final Diagnosis 			FNDX
+		(1 = Case, 0 = Control)
+
+26-27		Highest Grade in School			HIGD
+
+32		Degree (0 = None, 1 = High School,	DEG
+			2 = Jr. College, 3 = College,
+			4 = Masters,
+			5 = Doctoral)
+
+37		Regular Medical Checkups		CHK
+			(1-Yes, 2=No)
+
+42-43		Age at First Pregnancy			AGP1
+
+48-49		Age at Menarche				AGMN
+
+54		# of Stillbirths, Miscarriages, etc.	NLV
+
+58-59		Number of Live Births			LIV
+
+63-65		Weight of the Subject			WT
+
+69-70		Age at Last Menstrual Period		AGLP
+
+75		Marital Status (1 = Married,		MST
+			2 = Divorced, 3 = Separated,
+			4 = Widowed, 5 = Never Married)		
+------------------------------------------------------------------------
+Missing values are denoted by "." in the listing of the data.	
+
+
+PEDAGOGICAL NOTES:
+	These data have been used as an example of fitting a logistic 
+regression model for matched case-control studies.
+
+
+REFERENCES:
+
+1.  Pastides, H., Kelsey, J.L., Holford, T.R., and LiVolsi, V.A.,(1985).
+    The epidemiology of fibrocystic breast disease.  American Journal of 
+    Epidemiology, 121, 440-447.
+
+2.  Pastides, H., Kelsey, J.L., LiVolsi, V.A., Holford, T., Fischer, D.,
+    and Goldberg, I.(1983).  Oral contraceptive use and fibrocystic breast 
+    disease with special reference to its histopathology.  Journal of the 
+    National Cancer Institute, 71, 5-9.
+
+3.  Hosmer and Lemeshow, Applied Logistic Regression, Wiley, (1989).
+
+

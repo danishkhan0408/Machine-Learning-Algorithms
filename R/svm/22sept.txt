@@ -1,0 +1,65 @@
+SVM Support Vector Machine (Black Box Algorithm)
+-non parameteric test (like KVM) ie it doesnt depend on outliers
+-can convert non liniear data into linear data by mapping into another plane
+-works on classification and regression
+-works best on binary classification
+-plots a line between two classes with max distance between them
+-left to the plane is +1 and to the right is -1
+-distance d=2/(a^2 + b^2)^0.5
+-margin error = a^2 + b^2
+Goal of SVM is to reduce the error
+-alternate to Logistic Regression
+-standardiszation is performed on the data to reduce the computational time and complexity
+
+Cost parameter
+C controls the cost of misclassification on the training data
+(c x calssification error) + Margin error
+classification error is inverseley proportional to the Margin error
+cross validation is performed to get the least error and best accuracy
+
+SVM uses kernels for multi class classification
+
+Kernel types
+-RBF (Radial Bsus Kernel function) (observations > features)
+-Linear kernel (features > observations)
+
+case 1:
+Kernel: Linear 
+Scale: False
+Accuracy : 0.5763
+
+case 2:
+Kernel: Linear 
+Scale: True
+Accuracy : 0.5763 
+
+
+case 3:
+Kernel: Radial 
+Scale: F
+Accuracy : 0.678 
+
+case 4:
+Kernel: Radial
+Scale: T
+Accuracy : 0.5932 
+
+case 5:
+Kernel: Polynomial
+Scale: F
+Accuracy : 0.5763  
+
+case 6:
+Kernel: Polynomial
+Scale: T
+Accuracy : 0.5763 
+
+case 7:
+Kernel: Sigmoid
+Scale: F
+Accuracy : 0.3729 
+
+case 8:
+Kernel: Sigmoid
+Scale: T
+Accuracy : 0.3729

@@ -1,0 +1,9 @@
+Hierarchical Clustering
+also called Agglometric Hierarchical Clustering
+-iteration 1: each data point is a cluster (take Clusters=6)
+-iteration 2: two nearest clusters are clsutured together (total5)
+-iteration 3: two nearest clusters are clsutured together (total4)
+-goes on until two clusters are remaining
+
+Dendrogram:
+-It is like a memory of each cluster

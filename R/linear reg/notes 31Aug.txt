@@ -1,0 +1,56 @@
+linear regression
+-to predict continous outcome. eg stock prices, temp, profits, weight, etc
+
+y= variable to be predicted ie dependent variable
+x= independent variable/feature
+Best fit lines draws the best prediction for given values
+
+Method 1
+-Squaring the errors (method of least squares)-> gives e1
+method 2 -> gives e2
+if e2<e1, the method 2 is a better model as it has reduced the error
+
+Goal of Linear Regression is to build a model that reduces the SSE (sum of square error) and plot the best fit line
+
+equation:
+y=a+bn*xn
+y= value to be predicted
+a= intercept
+bn= slope of the line
+xn= independent variable
+
+a,b calc by 1. Stochastic Gradient Descent method (preferred)
+            2. OLS ordinary least square method - done statistically
+
+for selecting best fit line:
+1. must pass throught the centroid of the data
+2. the SSE should be the least
+
+Causal relationship if x causes y
+
+Model 1 = e1 = 960
+Model 2 = e2 = 230 - SSE (least among s1 and s2)
+e1-e2=730= SSR - Sum of Squared errors due to Regression
+SST= total sum of Square error = SSE + SSR = 930
+
+y= actual
+y^ hat= predicted
+y bar= mean
+
+Linear regresssion ass
+Asumptions
+1. Regression model is liner in its coeffs (y is linear with b)  y=a + b1x1 + b2(x2^2) + ... with X raised to 1 or 2.
+2. Mean f residuals (of the linear models) is 0 or near 0
+3. residuals have equal variance (homoscedasticity)
+4. Residuals are normally distributed
+5. X variables and residuals are not related
+6. No of obvs must be greater than no of X (rows>columns)
+7. no outliers
+8. Variability in x values is positive, X values in the given sample are not the same
+
+Feature selection:
+1.Remove- sequential data, free form text
+2.Multicollinearity check (x1, x2, etc are interrelated)
+3.Singularities
+4.model building
+5. summarize the model(hypothesis testing)
